@@ -12,28 +12,32 @@
 
     <div class="game-area">
         <div class="choices">
-            <button class="btn btn--big btn--green">
+            <button id="rock" class="btn btn--big btn--green">
                 <i class="fa-solid fa-hand-back-fist"></i>
             </button>
-            <button class="btn btn--big btn--blue">
+            <button id="paper" class="btn btn--big btn--blue">
                 <i class="fa-solid fa-hand"></i>
             </button>
-            <button class="btn btn--big btn--orange">
+            <button id="scissors" class="btn btn--big btn--orange">
                 <i class="fa-solid fa-hand-scissors"></i>
             </button>
-            <button class="btn btn--big btn--red">
+            <button id="lizard" class="btn btn--big btn--red">
                 <i class="fa-solid fa-hand-lizard"></i>
             </button>
-            <button class="btn btn--big btn--purple">
+            <button id="spock" class="btn btn--big btn--purple">
                 <i class="fa-solid fa-hand-spock"></i>
             </button>
         </div>
-    <div class="opponent-choice">FILLER TEXT</div>
+        <div class="your-choice">Your Choice:<span id="your-choice"></span></div>
+    <div class="computer-choice">Computer Choice:<span id="computer-choice"></span></div>
+    </div>
+    <div>
+        <h2>Result<span id="result"></span></h2>
     </div>
 
     <div class="streak-area">
-        <p class="streaks">Wins <span id="Current">0</span></p>
-        <p class="streaks">Losses<span id="Highest">0</span></p>
+        <p class="streaks">Wins <span id="wins">0</span></p>
+        <p class="streaks">Losses <span id="losses">0</span></p>
     </div>
 
 
