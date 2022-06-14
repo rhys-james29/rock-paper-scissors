@@ -11,6 +11,7 @@ possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click
     yourChoice = e.target.id
     yourChoiceDisplay.innerHTML = yourChoice
     generateComputerChoice()
+    getResult()
 }))
 
 
@@ -33,10 +34,12 @@ function generateComputerChoice() {
     computerChoice = 'spock'
   }
   computerChoiceDisplay.innerHTML = computerChoice
-    
-  }
+     }
+
+
 
   function getResult() {
+
     if (computerChoice === userChoice) {
       result = 'Draw!'
     }
@@ -73,33 +76,33 @@ function generateComputerChoice() {
     if (computerChoice === 'scissors' && userChoice === "lizard") {
         result = 'You lose!'
       }
-      if (computerChoice === 'scissors' && userChoice === "spock") {
+    if (computerChoice === 'scissors' && userChoice === "spock") {
         result = 'You win!'
       }
-      if (computerChoice === 'lizard' && userChoice === "paper") {
+    if (computerChoice === 'lizard' && userChoice === "paper") {
         result = 'You lose!'
       }
-      if (computerChoice === 'lizard' && userChoice === "rock") {
+    if (computerChoice === 'lizard' && userChoice === "rock") {
         result = 'You win!'
       }
-      if (computerChoice === 'lizard' && userChoice === "scissors") {
+    if (computerChoice === 'lizard' && userChoice === "scissors") {
         result = 'You win!'
       }
-      if (computerChoice === 'lizard' && userChoice === "spock") {
+    if (computerChoice === 'lizard' && userChoice === "spock") {
         result = 'You lose!'
       }
-      if (computerChoice === 'spock' && userChoice === "paper") {
+    if (computerChoice === 'spock' && userChoice === "paper") {
         result = 'You win!'
       }
-      if (computerChoice === 'spock' && userChoice === "rock") {
+    if (computerChoice === 'spock' && userChoice === "rock") {
         result = 'You lose!'
       }
-      if (computerChoice === 'spock' && userChoice === "scissors") {
+    if (computerChoice === 'spock' && userChoice === "scissors") {
         result = 'You lose!'
       }
-      if (computerChoice === 'spock' && userChoice === "lizard") {
+    if (computerChoice === 'spock' && userChoice === "lizard") {
         result = 'You win!'
       }
-
-    resultDisplay.innerHTML = result
+      
+      resultDisplay.innerHTML = result
   }
