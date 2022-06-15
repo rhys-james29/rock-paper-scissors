@@ -11,6 +11,10 @@ let result
 var wins = 0
 var losses = 0
 
+winsDisplay.innerHTML = wins
+lossDisplay.innerHTML = losses
+
+
 possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click', (e) => {
     yourChoice = e.target.id
     yourChoiceDisplay.innerHTML = yourChoice
