@@ -2,17 +2,35 @@ const computerChoiceDisplay = document.getElementById('computer-choice')
 const yourChoiceDisplay = document.getElementById('your-choice')
 const resultDisplay = document.getElementById('result')
 const possibleChoices = document.querySelectorAll('button')
+const winsDisplay =  document.getElementById('wins')
+const lossDisplay = document.getElementById('losses')
 
 let yourChoice
 let computerChoice
 let result
+var wins = 0
+var losses = 0
 
 possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click', (e) => {
     yourChoice = e.target.id
     yourChoiceDisplay.innerHTML = yourChoice
     generateComputerChoice()
     getResult()
+    addScore()
 }))
+
+function addScore(){
+  if (result === 'You win!'){
+    wins = wins + 1
+    winsDisplay.innerHTML = wins
+  } else if (result=== 'You lose!'){
+    losses = losses + 1
+    lossDisplay.innerHTML = losses
+  }
+}
+ 
+
+
 
 
 function generateComputerChoice() {

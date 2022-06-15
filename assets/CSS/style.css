@@ -6,6 +6,13 @@ body {
 
 }
 
+
+/*button styling*/
+
 .choices > button{
 padding:30px
+}
+
+button > i{
+    
 }
