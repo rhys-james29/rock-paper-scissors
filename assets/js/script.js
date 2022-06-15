@@ -40,67 +40,67 @@ function generateComputerChoice() {
 
   function getResult() {
 
-    if (computerChoice === userChoice) {
+    if (computerChoice === yourChoice) {
       result = 'Draw!'
     }
-    if (computerChoice === 'rock' && userChoice === "paper") {
+    if (computerChoice === 'rock' && yourChoice === "paper") {
       result = 'You win!'
     }
-    if (computerChoice === 'rock' && userChoice === "scissors") {
+    if (computerChoice === 'rock' && yourChoice === "scissors") {
       result = 'You lose!'
     }
-    if (computerChoice === 'rock' && userChoice === "lizard") {
+    if (computerChoice === 'rock' && yourChoice === "lizard") {
         result = 'You lose!'
       }
-      if (computerChoice === 'rock' && userChoice === "spock") {
+      if (computerChoice === 'rock' && yourChoice === "spock") {
         result = 'You win!'
       }
-    if (computerChoice === 'paper' && userChoice === "scissors") {
+    if (computerChoice === 'paper' && yourChoice === "scissors") {
       result = 'You win!'
     }
-    if (computerChoice === 'paper' && userChoice === "rock") {
+    if (computerChoice === 'paper' && yourChoice === "rock") {
       result = 'You lose!'
     }
-    if (computerChoice === 'paper' && userChoice === "lizard") {
+    if (computerChoice === 'paper' && yourChoice === "lizard") {
         result = 'You win!'
       }
-      if (computerChoice === 'paper' && userChoice === "spock") {
+      if (computerChoice === 'paper' && yourChoice === "spock") {
         result = 'You lose!'
       }
-    if (computerChoice === 'scissors' && userChoice === "rock") {
+    if (computerChoice === 'scissors' && yourChoice === "rock") {
       result = 'You win!'
     }
-    if (computerChoice === 'scissors' && userChoice === "paper") {
+    if (computerChoice === 'scissors' && yourChoice === "paper") {
       result = 'You lose!'
     }
-    if (computerChoice === 'scissors' && userChoice === "lizard") {
+    if (computerChoice === 'scissors' && yourChoice === "lizard") {
         result = 'You lose!'
       }
-    if (computerChoice === 'scissors' && userChoice === "spock") {
+    if (computerChoice === 'scissors' && yourChoice === "spock") {
         result = 'You win!'
       }
-    if (computerChoice === 'lizard' && userChoice === "paper") {
+    if (computerChoice === 'lizard' && yourChoice === "paper") {
         result = 'You lose!'
       }
-    if (computerChoice === 'lizard' && userChoice === "rock") {
+    if (computerChoice === 'lizard' && yourChoice === "rock") {
         result = 'You win!'
       }
-    if (computerChoice === 'lizard' && userChoice === "scissors") {
+    if (computerChoice === 'lizard' && yourChoice === "scissors") {
         result = 'You win!'
       }
-    if (computerChoice === 'lizard' && userChoice === "spock") {
+    if (computerChoice === 'lizard' && yourChoice === "spock") {
         result = 'You lose!'
       }
-    if (computerChoice === 'spock' && userChoice === "paper") {
+    if (computerChoice === 'spock' && yourChoice === "paper") {
         result = 'You win!'
       }
-    if (computerChoice === 'spock' && userChoice === "rock") {
+    if (computerChoice === 'spock' && yourChoice === "rock") {
         result = 'You lose!'
       }
-    if (computerChoice === 'spock' && userChoice === "scissors") {
+    if (computerChoice === 'spock' && yourChoice === "scissors") {
         result = 'You lose!'
       }
-    if (computerChoice === 'spock' && userChoice === "lizard") {
+    if (computerChoice === 'spock' && yourChoice === "lizard") {
         result = 'You win!'
       }
       
