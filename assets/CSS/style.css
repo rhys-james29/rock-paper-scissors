@@ -164,5 +164,9 @@ border-color: brown;
 
 .score-area {
     display: inline-block;
-    padding: 25px;
+    
+}
+
+.result-outcome{
+    font-size:2rem;
 }
