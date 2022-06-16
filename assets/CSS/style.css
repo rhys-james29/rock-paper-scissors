@@ -179,7 +179,12 @@ border-color: brown;
     .choices {
         width: 100%;
     }
-
+    .your-choice{
+        font-size:1.5rem;
+    }
+    .computer-choice{
+        font-size:1.5rem;
+    }
     .btn--big {
         margin: 0 10px;
         padding: 5px;
@@ -245,5 +250,11 @@ border-color: brown;
     }
     .question{
         font-size: 1rem;
+    }
+    .your-choice{
+        font-size:1.5rem;
+    }
+    .computer-choice{
+        font-size:1.5rem;
     }
 }
