@@ -21,7 +21,7 @@ possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click
     generateComputerChoice();
     getResult();
     addScore();
-}))
+}));
 
 function addScore(){
   if (result === 'You win!'){
