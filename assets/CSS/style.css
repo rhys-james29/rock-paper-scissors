@@ -174,3 +174,76 @@ border-color: brown;
 
 
 /* media queries */
+
+@media (max-width: 414px) {
+    .choices {
+        width: 100%;
+    }
+
+    .btn--big {
+        margin: 0 10px;
+        padding: 5px;
+        border: 5px solid;
+        width: 50px;
+        height: 50px;
+        font-size: 1.5rem;
+    }
+
+    
+
+    .choices-area {
+        padding: 10% 0;
+        width: 100%;
+    }
+
+    .score-area {
+        width: 100%;
+    }
+
+    .wins {
+        margin: 0.5em auto;
+        display: block;
+        padding: 5px;
+    }
+    .losses {
+        margin: 0.5em auto;
+        display: block;
+        padding: 5px;
+    }
+
+    .heading {
+        font-size: 2rem;
+    }
+
+    .result-outcome{
+        font-size: 1rem;
+    }
+
+    .question{
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 320px) {
+    .game-area {
+        height: 60vh;
+    }
+
+    .choices-area {
+        width: 75%;
+        margin: 10px auto;
+    }
+
+    .btn--big {
+        margin: 10px 10px;
+    }
+    .choices-area {
+        padding: 10px 0;
+    }
+    .result-outcome{
+        font-size: 1rem;
+    }
+    .question{
+        font-size: 1rem;
+    }
+}
