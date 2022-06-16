@@ -96,7 +96,6 @@ body {
 
 .btn--big {
     padding-top: 10px;
-    border-radius: 50%;
     border: 10px solid;
     width: 100px;
     height: 100px;
@@ -132,7 +131,7 @@ border-color: brown;
     border-color: orangered;
 }
 
-#block{
+#choice-area{
     display: inline-block;
     font-size:2rem ;
 }
@@ -164,9 +163,14 @@ border-color: brown;
 
 .score-area {
     display: inline-block;
+    font-size: 1.5rem;
     
 }
 
 .result-outcome{
     font-size:2rem;
 }
+
+
+
+/* media queries */
