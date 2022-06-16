@@ -104,3 +104,65 @@ body {
     margin: 20px;
     transition: all 0.5s;
 }
+
+
+/*choices*/
+
+.your-choice {
+margin:20px;
+background-color: white;
+border: 1px;
+border-color: brown;
+
+}
+
+#your-choice{
+    text-transform: capitalize;
+}
+
+#computer-choice{
+    text-transform: capitalize;
+}
+
+
+.computer-choice{
+    background-color: white;
+    margin: 20px;
+    border:1px;
+    border-color: orangered;
+}
+
+#block{
+    display: inline-block;
+    font-size:2rem ;
+}
+
+
+
+
+
+
+
+/*score area*/
+
+.score-area {
+    margin: 5px auto;
+    width: 60%;
+    font-size: 1.2rem;
+    
+}
+
+#wins {
+    color: green;
+    font-weight: bold;
+}
+
+#losses {
+    color: red;
+    font-weight: bold;
+}
+
+.score-area {
+    display: inline-block;
+    padding: 25px;
+}
