@@ -1,18 +1,106 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body {
-
     font-family: Roboto,sans-serif;
+    color: #445361;
+    text-align: center;
+    background-color: white;
+}
 
+/*heading*/
+
+.heading {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+/*game area*/
+.game-area {
+    background-color: #E6ECF0;
+    box-sizing: border-box;
+    width: 85%;
+    height: 65vh;
+    max-height: 450px;
+    max-width: 830px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
 }
 
 
 /*button styling*/
 
-.choices > button{
-padding:30px
+.btn {
+    width: 140px;
+    height: 80px;
+    color: white;
 }
 
-button > i{
-    
+
+.btn--blue {
+    border-color: blue;
+    color: blue;
+    background-color: white;
+}
+.btn--blue:active,
+.btn--blue:hover {
+    background-color: darkblue;
+    color: white;
+}
+
+.btn--orange {
+    border-color: orange;
+    color: orange;
+    background-color: white;
+}
+.btn--orange:active,
+.btn--orange:hover {
+    background-color: darkorange;
+    color: white;
+}
+.btn--red {
+    border-color: red;
+    color: red;
+    background-color: white;
+}
+
+.btn--red:active,
+.btn--red:hover {
+    background-color: darkred;
+    color: white;
+}
+
+.btn--green {
+    border-color: green;
+    color: green;
+    background-color: white;
+}
+
+.btn--green:active,
+.btn--green:hover {
+    background-color: green;
+    color: white;
+}
+
+.btn--purple {
+    border-color: purple;
+    color: purple;
+    background-color: white;
+}
+
+.btn--purple:active,
+.btn--purple:hover {
+    background-color: purple;
+    color: white;
+}
+
+.btn--big {
+    padding-top: 10px;
+    border-radius: 50%;
+    border: 10px solid;
+    width: 100px;
+    height: 100px;
+    font-size: 3.2rem;
+    margin: 20px;
+    transition: all 0.5s;
 }
