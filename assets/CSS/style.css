@@ -231,7 +231,7 @@ border-color: brown;
 
 @media (max-width: 320px) {
     .game-area {
-        height: 60vh;
+        height: 45vh;
     }
 
     .choices-area {
@@ -257,4 +257,10 @@ border-color: brown;
     .computer-choice{
         font-size:1.5rem;
     }
+    .score-area{
+        margin:0px;
+        padding:0px;
+        font-size:1.5rem;
+    }
+    
 }
