@@ -15,110 +15,73 @@ Rock, Paper, Scissors, Lizard, Spock! is a site made with javascript where a use
 
   - Featured at the top of the page, the heading is easy to see for the user. Upon viewing the page, the user will be able to see the name of the game and the choices they will be offered.
 
-![Heading](assets/images/HEADING.PNG)
+![Heading](assets/images/heading.PNG)
 
 - __The Game Area__
 
-  - This section will allow the user to play the maths game. The user will be able to easily see icons for addition,  subtraction, multiplication, and division games.
-  - The user will be able to select the type of maths game they will be playing by clicking on the different icons. 
+  - This section will allow the user to play the game. The user will be able to easily see icons for rock, paper, scissors, lizard and spock.
+  - The user will be able to select there choice and the computer choice will also be shown here. The computer choice is decided by a random number generator from 1 - 5 with each having a corresponding outcome. It is displayed below your choice. The buttons change when hovered over so you can easily tell which one your selecting.
 
-![Game](media/love_maths_icons.png)
+![Game](assets/images/game_area.PNG)
 
-- __The Question section__
+- __The results section__
 
-  - The question section is where the user will be able to see the elementary arithmetic question to answer as part of the game. The user will be able answer the questions in the answer box provide
-  - The user will be able to submit their answer and a pop-up will make it known to the user if they answered correctly. 
+  - The results section is where the user will be able to see the outcome of the game, the outcomes being 'you lose', 'you win' and 'draw'.
+  - The user will also be able to see how many wins and losses they have, this is all done via javascript.
 
-![Question](media/love_maths_question.png)
-
-- __The Score Area__
-
-  - This section will allow the user to see exactly how many correct and incorrect answers they have provided. 
-
-![score](media/love_maths_answer.png)
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+![Question](assets/images/results.PNG)
 
 ### Features Left to Implement
 
-- Another feature idea
+- If i had more time i would like to implement some kind of pattern matching functionality to make the game vs the computer harder.
+- id also consider changing the score system to a number of tries system before the game is over. Maybe 5 rounds.
+- Also a streak counter which would keep track of the number of wins in a row and keep track of the highest streak.
+- id also like to add more to the website in terms of other content however the focus is on the js code and the game itself.
 
 ## Testing 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+- I have tested it works on various browsers including Chrome, safari, firefox and microsoft bing.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+- I have confirmed all text and important information is contrasting and easy to read.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+- I have confirmed the buttons all work as intended and produce no errors in the console when clicked, all javascript works as intended.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+- I have confirmed the game still functions and looks good on smaller screens.
 
 
 ### Validator Testing 
 
 - HTML
-    - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-maths%2F)
+    - It comes up with repeated id's when passed through the w3c validator however this was the only fix me and 2 tutors could find over an hour plus of looking for a fix to an issue. i asked the tutor who helped me fix it if i was okay to have duplicate di tags and he said it was fine!!
 - CSS
-    - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-maths%252F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+    - No errors were found when passing through the official css (Jigsaw) validator.
 - JavaScript
-    - No errors were found when passing through the official [Jshint validator](https://jshint.com/)
+    - No errors were found when passing through the official Jshint validator
       - The following metrics were returned: 
-      - There are 11 functions in this file.
-      - Function with the largest signature takes 2 arguments, while the median is 0.
-      - Largest function has 10 statements in it, while the median is 3.
-      - The most complex function has a cyclomatic complexity value of 4 while the median is 2.
+      - There are 5 functions in this file.
+      - Function with the largest signature take 1 arguments, while the median is 0.
+      - Largest function has 43 statements in it, while the median is 5.
+      - The most complex function has a cyclomatic complexity value of 42 while the median is 3.
 
 ### Unfixed Bugs
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+Only 'bug' would be the aforementioned repeated id's, however the tutor assured me it wouldnt affect the games functionality and was okay to include. The issue that required this fix was the buttons acting weirdly. If the fontawesome icon inside the button was clicked even though its inside the button no choice was output and the console displayed errors, however the edges of the button worked correctly. We tried a lot of fixes and in the end settled on this one.   
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+The site was deployed to github pages. The steps to deploy are as follows.
+In the github repository navigate to the settings tab.
+From the source section dropdown menu select the master branch.
+once selected the page provided the link to the completed website.
 
-The live link can be found here - https://code-institute-org.github.io/love-maths/
+The live link can be found here - https://rhys-james29.github.io/rock-paper-scissors-lizard-spock/
 
 
 ## Credits 
+ 
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
-
-### Content 
-
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
-
-### Media
-
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
+- Button styling similar to the love maths example project, through mimicing the way they applied styles i learnt how to have multiple class tags that all worked together to create similar but slightly different buttons to each other without rewriting all of my css for each button.
+- I found out some interesting ways to code rock paper scissors from this youtube video https://www.youtube.com/watch?v=RwFeg0cEZvQ and used what made sense to me.
 
 
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
-
-## Other General Project Advice
-
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work! 
-
-- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write  a Git Commit Message 
-  - Make sure to keep the messages in the imperative mood 
-
-- When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
-  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept. 
-
-- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
-  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
-  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
-
-Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! 
