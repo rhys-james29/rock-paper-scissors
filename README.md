@@ -3,7 +3,7 @@
 
 Rock, Paper, Scissors, Lizard, Spock! is a site made with javascript where a user can play a more complicated version of rock, paper, scissors vs the computer and keep track of how many wins and losses they achieve. The site is targeted at those who who want to learn about javascript and also play a game of chance vs the computer. Are you feeling lucky?
 
-![Responsice Mockup](media/love_maths_mockup.png)
+![Responsice Mockup](assets/images/responsive.PNG)
 
 ## Features 
 
@@ -29,7 +29,7 @@ Rock, Paper, Scissors, Lizard, Spock! is a site made with javascript where a use
   - The results section is where the user will be able to see the outcome of the game, the outcomes being 'you lose', 'you win' and 'draw'.
   - The user will also be able to see how many wins and losses they have, this is all done via javascript.
 
-![Question](assets/images/results.PNG)
+![Results](assets/images/results.PNG)
 
 ### Features Left to Implement
 
