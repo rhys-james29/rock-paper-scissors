@@ -232,7 +232,7 @@ border-color: brown;
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 375px) {
     .game-area {
         height: 45vh;
     }
